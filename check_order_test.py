@@ -19,9 +19,8 @@ def test_get_order_info():
     get_order_response = api_requests.get_order_info(track)
     # проверяем, что статус код ответа 200
     assert get_order_response.status_code == 200
-    # эта проверка не проходит, подробности прописал в файле README
-    # assert get_order_response.json()["order"]["track"] == track
-
+    # проверяем, что в ответе содержится информация именно по запрошенному заказу
+    assert get_order_response.json()["order"]["track"] == track
 
 
 

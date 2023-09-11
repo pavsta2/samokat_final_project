@@ -1,3 +1,3 @@
-URL_HOST = "https://13a12029-55fb-40e1-ae54-ed5ba699cc3e.serverhub.praktikum-services.ru"
+URL_HOST = "https://6cd627ba-248b-4a57-a64e-570ae695e538.serverhub.praktikum-services.ru"
 CREATE_ORDER_PATH = "/api/v1/orders"
-GET_ORDER_PATH = "/v1/orders/track"
+GET_ORDER_PATH = "/api/v1/orders/track"
